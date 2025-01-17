@@ -117,7 +117,7 @@ class FlutterClassGenerator {
         '///',
         "/// <image width='32px' src='data:image/svg+xml;base64,${glyphMeta.preview}'>",
       ],
-      'static const IconData $varName = IconData(0x$hexCode, $posParamString);'
+      'static const IconData $iconName = IconData(0x$hexCode, $posParamString);'
     ];
   }
 
